@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text"></p>
+    <p id="text1"></p>
+    <p id="text2"></p>
+    <script>
+    var gretting = 'hello';
+    var name = 'world';
+    
+   string= document.getElementById("text").innerHTML= gretting + " "+name;
+
+    newstring=gretting.replace("llo","110");
+    newstring1=name.replace("orl","0r1");
+    document.getElementById("text1").innerHTML=newstring+" "+newstring1;
+
+    function ReverseString(str){
+        return str.split(' ').reverse().join(' ')
+    }
+    document.write(ReverseString("A coding device !"))
+    </script>
+</body>
+</html>
